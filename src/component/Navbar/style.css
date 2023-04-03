@@ -1,0 +1,31 @@
+
+.app {
+    display: grid;
+    grid-template-rows: 100px auto 100px;
+
+}
+.navbar {
+    background-color: var(--bg-light);
+    /* height: 100px; */
+    display: flex;
+    align-items: center;
+}
+/* .brand-container {
+    width: 10vw;
+} */
+.brand-container a {
+    width: clamp(100px,20vw,300px);
+}
+.brand-container img {
+    width: inherit;
+}
+.nav-items {
+    flex-grow: 1;
+    display: flex ;
+    justify-content: space-around;    
+}
+.email-container {
+    border: 2px solid black;
+    padding: 50px;
+    width: 350px;
+}

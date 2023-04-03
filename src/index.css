@@ -1,0 +1,10 @@
+:root {
+    --bg-light : hsla(0,0%,100%,.8); 
+    --font-gn : rgb(53,113,98);
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
