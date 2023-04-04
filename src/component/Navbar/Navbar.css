@@ -1,0 +1,63 @@
+nav{
+    position: fixed;
+    z-index: 10000;
+    height: 70px;
+    width: 100%;
+    opacity: 0.94;
+    background-color: white;
+    padding: 10; margin: 0;
+    display: flex;
+    justify-content: space-around;
+    font-family: monospace;
+    align-items: center;
+    
+    
+}
+.brand-img{
+    height: 70px;
+    width: 180px;
+    margin-left: 20px;
+}
+.div-nav-box{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 500px;
+    color: var(--bg-green);
+    font-weight:900;
+    font-size: 17px;
+    flex-grow: 1;
+    gap: 35px;
+    margin-left: 20px;
+}
+.div-nav-last{
+    display: flex;
+    width: 470px;
+    justify-content: space-around;
+}
+#assesment-btn{
+    height: 40px;
+    width: 170px;
+    background-color: var(--bg-green);
+    border-radius: 25px;
+    border-style: none;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+#login-btn{
+    background-color: white;
+    border: var(--bg-green) solid 2px;
+    border-radius:25px ;
+    width: 160px;
+    color: green;
+    font-weight: bold;
+    height: 40px;
+}
+
+#login-btn :hover{
+    color: white;
+    background-color: var(--bg-green) ;
+    cursor: pointer;
+
+}

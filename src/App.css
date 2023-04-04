@@ -1,0 +1,13 @@
+body{
+    margin: 0px;
+    background-color: var(--bg-green);
+    height: 700px;
+}
+a{
+    text-decoration: none;
+    color: var(--bg-green);
+}
+
+:root{
+    --bg-green:#357162; 
+}
