@@ -3,13 +3,19 @@
     --font-gn : rgb(53,113,98);
     --color--green : #357162;
     --color-pink : #FEE2E2;
-    --color-light-g : #d0dbd8;
+    --color-light-g : #F0F8F6;
 }
 * {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
-.app {
+/* .app {
+    background-color: var(--color--green);
+    box-shadow: -10px 0 20px var(--color--green);
+    margin: 50px;
+} */
+
+.content-container {
     background-color: var(--color--green);
 }

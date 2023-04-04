@@ -1,9 +1,8 @@
 .greeting-container {
     width: 90%;
-    background-color: red;
     margin: 30px auto;
     border-radius: 20px;
-    /* overflow: hidden; */
+    overflow: hidden;
     display: flex;
     height: 100vh;
 }

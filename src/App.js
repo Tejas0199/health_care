@@ -1,15 +1,14 @@
-import {useState} from 'react';
-import Input from "./component/Input";
+
 import Navbar from "./component/Navbar";
 import { Link, Route, Routes } from 'react-router-dom';
 import GreetingImageContainer from './component/GreetingImageContainer';
 
 
 function App() {
-  
   return (
     <div className="app">
       <Navbar/>
+      <div className="content-container">
       <Routes>
         <Route index element={<h1>Hello Home</h1>}/>
         <Route path='/login' element={<GreetingImageContainer>
@@ -25,6 +24,7 @@ function App() {
             </div>
         </GreetingImageContainer>}/>
       </Routes>
+      </div>
     </div>
   );
 }
