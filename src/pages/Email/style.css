@@ -1,0 +1,13 @@
+form .label-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-submit-btn {
+  margin-top: 12px;
+  background-color: var(--primary-color);
+  padding: 12px 20px;
+  border-radius: 50px;
+  border: none;
+  color: var(--secondary-color);
+}

@@ -1,0 +1,21 @@
+.left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #FEE2E2;
+  color: var(--primary-color);
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.left-container img1 {
+  width: 176px;
+  height: 166px;
+}
+
+.left-container>img2 {
+  align-self: baseline;
+  width: 345px;
+  height: 422px;
+}

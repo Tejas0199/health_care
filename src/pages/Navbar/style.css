@@ -1,0 +1,196 @@
+:root {
+  --primary-color: rgb(53, 113, 98);
+  --secondary-color: rgb(255, 255, 255);
+  --font-weight: 500;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 50px;
+  border-bottom: 2px solid var(--primary-color);
+  /* position: fixed;
+  top: 0; */
+}
+
+.left-nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.right-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5px;
+  gap: 10px;
+}
+
+.nav-links {
+  text-decoration: none;
+  padding: 20px;
+  color: var(--primary-color);
+  font-weight: var(--font-weight);
+  /* align-items: center; */
+}
+
+/* style for drp dwn */
+.left-nav .drop-down {
+  position: relative;
+  cursor: pointer;
+}
+
+.left-nav .drop-down h4 {
+  color: var(--primary-color);
+}
+
+.left-nav .drop-down>div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.left-nav .drop-down>ul {
+  position: absolute;
+  top: 25px;
+  list-style: none;
+  background-color: white;
+  padding: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.475);
+  border-radius: 3px;
+}
+
+.left-nav .drop-down>ul li {
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.left-nav .drop-down>ul li a {
+  text-decoration: none;
+}
+
+.left-nav .drop-down>ul li:hover {
+  background-color: rgba(196, 239, 196, 0.308);
+}
+
+.left-nav .drop-down i {
+  color: var(--primary-color);
+}
+
+.nav-btn1 {
+  background-color: var(--primary-color);
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: var(--font-weight);
+  color: var(--secondary-color);
+  padding: 0.625rem 1rem;
+  border-radius: 50px;
+  border: none;
+}
+
+.nav-btn1:hover {
+  cursor: pointer;
+}
+
+.signup-btn.login-btn {
+  display: flex;
+  gap: 5px;
+  border: 1px solid var(--primary-color);
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: var(--secondary-color);
+}
+
+.signup-btn.login-btn:hover {
+  background-color: var(--primary-color);
+}
+
+.signup-btn.login-btn:hover a {
+  color: var(--secondary-color);
+}
+
+.signup-btn.login-btn i {
+  margin-right: 5px;
+}
+
+.verticle-bar {
+  width: 2px;
+  background-color: var(--primary-color);
+}
+
+.signup-btn.login-btn:hover .verticle-bar {
+  background-color: var(--secondary-color);
+}
+
+.signup-btn.login-btn a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+/* .dummy-navbar {
+  background-color: white;
+  width: 100vw;
+  z-index: 1;
+} */
+
+/* 
+
+.nav-btn2 {
+  background-color: var(--secondary-color);
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: var(--font-weight);
+  color: rgb(53, 113, 98);
+  padding: 0.625rem 1rem;
+  border-radius: 50px;
+  border: 2px solid var(--primary-color);
+  outline: none;
+} */
+
+.r {
+  margin-right: 7px;
+  ;
+}
+
+.nav-btn2:hover {
+  background-color: var(--primary-color);
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  color: var(--secondary-color);
+  padding: 0.625rem 1rem;
+  border-radius: 50px;
+}
+
+.line-div {
+  width: 1rem;
+  margin: 40px;
+  display: none;
+}
+
+.line {
+  width: 1rem;
+  border-bottom: 2px solid gray;
+  padding-bottom: 4px;
+}
+
+/* @media (max-width:1279px) {
+  .nav-btn1 {
+    display: none;
+  }
+}
+
+@media (max-width:1070px) {
+  .nav-links {
+    display: none;
+  }
+
+}
+
+@media (max-width:1023px) {
+  .line-div {
+display: block;
+}
+} */

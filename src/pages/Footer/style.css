@@ -1,0 +1,78 @@
+:root {
+  --primary-color: rgb(53, 113, 98);
+  --secondary-color: rgb(255, 255, 255);
+  --font-weight: 500;
+}
+
+
+.footer {
+  /* height: 250px; */
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 15px;
+  /* margin-top: 12px; */
+  border-top: 4px solid var(--secondary-color);
+}
+
+.heading-copyright a img {
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.copy-right {
+  color: var(--secondary-color);
+  font-size: 0.8rem;
+}
+
+.heading-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+}
+
+link a {
+  color: var(--secondary-color);
+}
+
+.link-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 120px;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+
+.footer-links {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-weight: var(--font-weight);
+  font-size: 1.625rem;
+  padding-bottom: 20px;
+}
+
+.message {
+  width: 600px;
+  /* height: 100px; */
+  color: var(--secondary-color);
+  font-size: 0.8rem;
+  border: 1px solid var(--secondary-color);
+  border-radius: 4px;
+  padding: 10px;
+}
+
+/* @media (max-width:1023px) {
+  .link-div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px
+  }
+} */
