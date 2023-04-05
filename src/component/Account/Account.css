@@ -74,10 +74,15 @@ h2 {
     height: inherit;
     color: var(--bg-green);
     background-color: white;
-    border: none;
+   
+   border: none;
     border-radius: inherit;
 }
 
+#user-btn{
+    background-color: var(--bg-green);
+    color: white;
+}
 .signupwith {
 
     height: 260px;
@@ -126,4 +131,36 @@ i {
     font-family: sans-serif;
     color: var(--bg-green);
     font-size: 0.75rem;
+}
+
+/* form component */
+.sub-right-form{
+    display: grid;
+    grid-template-rows:  1fr 50px;
+    align-items: center;   
+    margin: 5px 42px;
+    
+}
+.submit-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.submit-btn button{
+    border: none;
+    background-color: var(--bg-green);
+    color: white;
+    height: 40px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* OTP form */
+.sub-right-OTP{
+    color: var(--bg-green);
+    height: 400px;
+    display: grid;
+    grid-template-rows:40px 1fr 50px ;
+    margin: 5px 42px;
+    align-items: center;
 }

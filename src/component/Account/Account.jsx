@@ -1,10 +1,11 @@
 import React from "react";
 import "./Account.css";
 import SignUp from "./SignUp";
-import UserLogin from "./UserLogin";
+import UserLogin from "./Login";
 import Input from "../../Assest/Input";
+import EmailAuth from "./SignUpEmail";
 // import UserLogin from "./UserLogin";
-const Account = () => {
+const Account = ({children}) => {
   return (
     <div className="Account">
       <div className="Account-box">
@@ -27,8 +28,10 @@ const Account = () => {
           </div>
         </div>
         <div className="right">
-          {/* <UserLogin/> */}
-          <SignUp/>
+          {
+            children
+          }
+          
         </div>
       </div>
     </div>
