@@ -56,7 +56,7 @@ const Email = () => {
       </form>
 
 
-      <u><p className='account-link'>Already have an account? <Link to='Login'><b>Login</b> </Link>  here</p></u>
+      <u><p className='account-link'>Already have an account? <Link to='/login'><b>Login</b> </Link>  here</p></u>
       <p className='policy'>
         By signing up, you agree to the <Link to='/terms&conditions'> Terms of Service</Link> and <Link to='/policy'>Privacy Policy</Link>, including <Link to='/cookies'>Cookie use</Link>
       </p>

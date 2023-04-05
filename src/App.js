@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Navbar from './pages/Navbar/index';
 import Footer from './pages/Footer/index';
 import GreetingComponent from './Components/GreetingComponent';
@@ -21,19 +21,7 @@ function App() {
 
           <Route path='/signup' element={<GreetingComponent>
             <SignUp />
-          </GreetingComponent>} >
-            <Route index element={<div className='btn-div'>
-              <h1>Option button</h1>
-              <Link to='/signup/email'>Email</Link>
-              <Link to='/signup/mobile'>Mobile</Link>
-            </div>} />
-            <Route path='/signup/email' element={<div>
-              <h1>Email</h1>
-            </div>} />
-            <Route path='/signup/mobile' element={<div>
-              <h1>Mobile number</h1>
-            </div>} />
-          </Route>
+          </GreetingComponent>} />
           <Route path='/email' element={<GreetingComponent>
             <Email />
           </GreetingComponent>} />

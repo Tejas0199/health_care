@@ -14,7 +14,6 @@ const Signup = () => {
   const handlerPerspective = (text) => {
     setperspective(text)
   }
-
   return (
 
     <div className='right-container'>
@@ -31,15 +30,14 @@ const Signup = () => {
           className={`user-btn ${perspective === 'provider' ? 'active' : ""}`}>< RiStethoscopeFill style={{ color: perspective === 'provider' ? 'white' : 'rgb(53, 113, 98)', paddingRight: '10px' }} />Provider</button>
       </div>
       <h3>Sign up with </h3>
-      <Outlet />
-      {/* <div className='btn-div'>
+      {/* <Outlet /> */}
+      <div className='btn-div'>
         <button
           onClick={() => {
             // if (resizeBy.status === 200) {
-            localStorage.setItem('isUserlogedin', false);
+            // localStorage.setItem('isUserlogedin', false);
             navigate('/email');
           }}
-
           className='contact-btn'><BsFillEnvelopeFill style={{ color: 'rgb(53, 113, 98)' }} />{' '}Email</button>
         <button onClick={() => {
           // if (status === 200) {
@@ -47,7 +45,7 @@ const Signup = () => {
           navigate('/mobile_otp');
         }} className='contact-btn'><GoDeviceMobile style={{ color: 'rgb(53, 113, 98)' }} />{' '}Mobile OTP</button>
         <button className='contact-btn'><FcGoogle style={{ color: 'rgb(53, 113, 98)' }} />{' '}Google</button>
-      </div> */}
+      </div>
       <p className='para-link'>New to healthstro? <Link to='/signup'><b>Create an account</b> </Link>  here</p>
       <p className='policy'>
         By signing up, you agree to the Terms of Service and Privacy Policy, including Cookie use
