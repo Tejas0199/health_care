@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
 import Input from '../../Components/Input/index';
 import './style.css';
 
@@ -14,8 +13,8 @@ const Email = () => {
     setUserInfo({ ...userInfo, [name]: value })
   }
   return (
-    <div className="right-container">
-      <h2>Sign up to health<span>stro</span></h2>
+    <div>
+      {/* <h2>Sign up to health<span>stro</span></h2> */}
 
       <form className='email-form' onSubmit={(event) => {
         event.preventDefault();
@@ -55,11 +54,11 @@ const Email = () => {
         </div>
       </form>
 
-
+      {/* 
       <u><p className='account-link'>Already have an account? <Link to='/login'><b>Login</b> </Link>  here</p></u>
       <p className='policy'>
         By signing up, you agree to the <Link to='/terms&conditions'> Terms of Service</Link> and <Link to='/policy'>Privacy Policy</Link>, including <Link to='/cookies'>Cookie use</Link>
-      </p>
+      </p> */}
     </div>
   )
 }

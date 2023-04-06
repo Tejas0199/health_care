@@ -19,8 +19,8 @@ const Navbar = () => {
         <Link to="/shop" className='nav-links' style={{ color: getColor('/shop') }}>Shop</Link>
         <OurSolutionsDropDown />
         <Link to="/blog" className='nav-links' style={{ color: getColor('/blog') }}>Blog</Link>
-        <Link to="/goals" className='nav-links' style={{ color: getColor('/goals') }}>For Providers</Link>
-        <Link to="/about" className='nav-links' style={{ color: getColor('/about') }}>Goals</Link>
+        <Link to="/goals" className='nav-links' style={{ color: getColor('/goals') }}>Goals</Link>
+        <Link to="/about" className='nav-links' style={{ color: getColor('/about') }}>About</Link>
         <Link to="/contact" className='nav-links' style={{ color: getColor('/contact') }}>Contact Us</Link>
       </div>
 
