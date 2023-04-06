@@ -11,7 +11,7 @@ const SignupOptions = () => {
       <Link to='/signup/email'
         className='contact-btn'><BsFillEnvelopeFill style={{ color: 'rgb(53, 113, 98)' }} />{' '}Email</Link>
       <Link to='/signup/mobile_otp' className='contact-btn'><GoDeviceMobile style={{ color: 'rgb(53, 113, 98)' }} />{' '}Mobile OTP</Link>
-      <Link to='/signup/enter_otp' className='contact-btn'><FcGoogle style={{ color: 'rgb(53, 113, 98)' }} />{' '}Google</Link>
+      <Link to='/signup/google' className='contact-btn'><FcGoogle style={{ color: 'rgb(53, 113, 98)' }} />{' '}Google</Link>
     </div>
   )
 }

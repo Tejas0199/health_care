@@ -26,8 +26,6 @@ function App() {
             <Route index element={<SignupOptions />} />
             <Route path="/signup/email" element={<Email />} />
             <Route path="/signup/mobile_otp" element={<MobileOTP />} />
-            <Route path='/signup/enter_otp' element={
-              <EnterOTP />} />
           </Route>
           <Route path='*' element={<h1>Page Not Found</h1>} />
           {/* <Route path='/signup/email' element={<GreetingComponent>
@@ -36,9 +34,9 @@ function App() {
           <Route path='/signup/mobile_otp' element={<GreetingComponent>
             <MobileOTP />
           </GreetingComponent>} /> */}
-          {/* <Route path='/enter_otp' element={<GreetingComponent>
+          <Route path='/enter_otp' element={<GreetingComponent>
             <EnterOTP />
-          </GreetingComponent>} /> */}
+          </GreetingComponent>} />
         </Routes>
       </div>
       <Footer />

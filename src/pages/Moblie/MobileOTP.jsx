@@ -1,7 +1,9 @@
 import React from 'react';
 import './MobileOTP.css';
+import { useNavigate } from 'react-router-dom';
 
 const MobileOTP = () => {
+  const navigate = useNavigate();
   return (
     <div className="mobile-input-div">
       <label htmlFor="">Mobile*</label>
@@ -15,7 +17,12 @@ const MobileOTP = () => {
         <input type="number" placeholder='MOBILE NUMBER' />
       </div>
       <div className='btn-div'>
-        <button className='mb-otp-btn'>Get Started</button>
+        <button className='mb-otp-btn'
+          onClick={() => {
+
+            navigate('/enter_otp');
+          }}
+        >Get Started</button>
       </div>
     </div>
     // <div className="right-container">
