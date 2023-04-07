@@ -1,0 +1,36 @@
+.greeting-container {
+  width: 90%;
+  margin: 30px auto;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  height: 100vh;
+}
+.greeting-container .img-container img:nth-child(1) {
+  width: 200px;
+}
+
+.greeting-container .img-container {
+  background-color: pink;
+  width: 50%;
+  display: flex ;
+  padding: 20px;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 1;
+
+}
+.greeting-container .img-container>div:nth-child(1) {
+  width: 80%;
+}
+.greeting-container>div:nth-child(2) {
+  background-color: var(--color-light-g);
+  flex-grow: 1;
+  flex-basis: 1;
+  padding: 20px;
+}
+.greeting-container .img-container h2 {
+  color: var(--font-gn);
+}

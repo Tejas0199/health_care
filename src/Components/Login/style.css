@@ -1,0 +1,67 @@
+ .input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+  gap: 5px;
+}
+.input-container label {
+  color: var(--font-gn);
+}
+.input-container div {
+  border: 2px solid rgb(212, 212, 212);
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px 8px;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+}
+.input-container .error {
+  border-color: red;
+}
+.input-container .is-focus {
+  border-color: var(--font-gn);
+}
+.input-container input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  color: gray;
+  font-size: 1.2rem;
+}
+.input-container i {
+  color: red;
+}
+.input-container p {
+  color: red;
+}
+h1 {
+  color: rgb(53, 113, 98);
+
+  text-align: center;
+}
+/* .app {
+  border: 2px solid black;
+  height: 100%;
+  background-color: rgb(228, 207, 230);
+  width: 30%;
+} */
+
+.new-div{
+    text-align: center;
+    font-size: large;
+}
+.new-div p{
+    color: rgb(53, 113, 98);
+}
+.icon-container{
+display: flex;
+}
+.contact-btn1{
+  padding: 18px 28px;
+  background-color:  rgb(53, 113, 98);
+  border-radius: 50px;
+  color: white;
+  font-size: 25px;
+  }

@@ -1,0 +1,119 @@
+
+.app {
+  display: grid;
+  grid-template-rows: 100px auto 100px;
+
+}
+.navbar {
+  background-color: rgba(255, 255, 255, 0.949);
+  padding: 0px clamp(5px,5vw,50px);
+  display: flex;
+  height: 100px;
+  box-sizing: border-box;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+  width: 100vw;
+}
+.dummy-navbar {
+  background-color: white;
+  width: 100vw;
+  z-index: 1;
+}
+.brand-container {
+  width: clamp(50px,20vw,200px);
+}
+.brand-container a {
+  /* width: clamp(100px,20vw,300px); */
+}
+.brand-container img {
+  width: 100%;
+}
+.nav-items {
+  flex-grow: 1;
+  display: flex ;
+  justify-content: space-between;    
+}
+.nav-items>div {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+.email-container {
+ 
+  width: 350px;
+}
+.signin-btn.login-btn {
+  display: flex;
+  gap: 5px;
+  border: 1px solid var(--font-gn);
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: white;
+}
+.signin-btn.login-btn:hover {
+  background-color: var(--font-gn);
+}
+.signin-btn.login-btn:hover a {
+  color: white;
+}
+.signin-btn.login-btn i {
+  margin-right: 5px;
+}
+.verticle-bar {
+  width: 2px;
+  background-color: var(--font-gn);
+}
+.signin-btn.login-btn:hover .verticle-bar {
+  background-color: white;
+}
+.signin-btn.login-btn a {
+  text-decoration: none;
+  color: var(--font-gn);
+}
+.nav-items a {
+  color: var(--font-gn);
+  text-decoration: none;
+  font-weight: 600;
+  font-family:sans-serif;
+}
+.fa-cart-shopping {
+  font-size: 1.5rem;
+}
+.simple-succedd-btn {
+  background-color: var(--font-gn);
+  padding: 10px 20px;
+  color: white !important;
+  border-radius: 50px;
+}
+.navbar .drop-down {
+  position: relative;
+  cursor: pointer;
+}
+.navbar .drop-down h4 {
+  color: var(--font-gn) ;
+}
+.navbar .drop-down>div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.navbar .drop-down>ul {
+  position: absolute;
+  top: 25px;
+  list-style: none;
+  background-color: white;
+  padding: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.475);
+  border-radius: 3px;
+}
+.navbar .drop-down>ul li {
+  padding: 10px; 
+  border-radius: 8px;
+}
+.navbar .drop-down>ul li:hover {
+  background-color: rgba(196, 239, 196, 0.308);
+}
+.navbar .drop-down i {
+  color: var(--font-gn);
+}

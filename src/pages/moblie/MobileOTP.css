@@ -1,0 +1,82 @@
+/* h2{
+  font-size: 40px;
+}
+p{
+  color: rgb(56, 91, 56);
+}
+/* .mobile-input-div{
+  border: none;
+  outline: none;
+} */
+/* input{
+  padding: 0.625rem 1rem;
+  width: 80px;
+  margin: auto;
+  border: none;
+  position: relative;
+  z-index: 0;
+}
+.contact-btn1{
+  background-color:  rgb(53, 113, 98);
+border-radius: 50px;
+color: white;
+font-size: 25px;
+}  */
+/* .mobile-btn{
+  display: block;
+  background-color: var(--primary-color);
+  padding: 12px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  /* align-items: center; */
+ 
+
+  .mobile-input-div .select-input{
+    display: flex;
+    
+  }
+.select-input {
+
+  width: 100%;
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  gap: 1px;
+}
+#box1{
+  width: 60px;
+  height: 31px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+}
+.mobile-input{
+  width: 70%;
+  height: 30px;
+  border: none;
+}
+.btn--div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+#mobile-btn{
+  width: 365px;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  border-radius: 20px;
+  height: 35px;
+  background-color: rgb(53,113,98);
+  color: #ffff;
+  border: none;
+  box-shadow: inset;
+}
+
+
